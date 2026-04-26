@@ -78,5 +78,24 @@
             <a href="setup.html">setup</a>.
         </p>
 
+        <p>
+            Application 6 was the last major project in my Real-Time Systems course at UCF! In this project, I chose to 
+            build a room availability tracker for office buildings. This tracker would show whether a room was occupied 
+            and/or booked for a meeting. To prototype this, I implemented an ESP32 device along with some sensors and LEDs on 
+            Wokwi, a popular online simulator.
+        </p>
+
+        <p>
+            If the heat sensor read high enough (above the threshold for a human heat signature) and the light sensor read 
+            low enough (below the threshold indicating something obstructed a main chair in the room), the room's blue status 
+            LED would light up. If either the room's physical check-in/check-out button or a server webpage's check-in/check-out 
+            buttons were pressed, the red room availability LED would light up. Additionally, if all people in the room left 
+            while the room was booked, the room would automatically become free and turn off the blue and red LEDs.
+        </p>
+
+        <p>
+            You can find my Wokwi implementation <a href="https://wokwi.com/projects/462283629197830145">here</a>!
+        </p>
+        
     </div>
 </body>
